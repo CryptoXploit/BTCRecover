@@ -1,0 +1,11 @@
+[report]
+exclude_lines =
+    # Not called from coverage tests
+    if __name__ == .__main__.:
+
+    # Untestable from a working environment
+    except AttributeError:
+    except TypeError
+
+omit = /build/*,/usr/*,pylibscrypt/libsodium_load.py,pylibscrypt/test_properties.py,pylibscrypt/tests.py,test_fallback.py
+

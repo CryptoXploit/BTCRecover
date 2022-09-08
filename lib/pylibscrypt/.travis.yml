@@ -1,0 +1,21 @@
+language: python
+
+sudo: required
+
+branches:
+    only:
+        - master
+
+services:
+    - docker
+
+install:
+    - docker pull jvarho/pylibscrypt
+    - pip install coveralls
+
+script:
+    - docker run -v ${PWD}:/app jvarho/pylibscrypt
+
+after_success:
+    - sed -i "s@/app@$TRAVIS_BUILD_DIR@g" .coverage
+    - coveralls

@@ -1,0 +1,10 @@
+*.py[co]
+*~
+i-*/
+.coverage
+*,cover
+htmlcov/
+build/
+dist/
+MANIFEST
+.hypothesis/
