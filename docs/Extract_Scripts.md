@@ -16,15 +16,15 @@ You can download the entire *btcrecover* package from: <https://github.com/3rdit
 
 If you'd prefer to download just a single extract script, please select the one for your wallet software from below, then right click and choose “Save link as...” or “Save target as...”:
 
- * Bitcoin Core - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-bitcoincore-mkey.py>
- * Bither - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-bither-partkey.py>
- * Blockchain main password - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-blockchain-main-data.py>
- * Blockchain second password -  <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-blockchain-second-hash.py>
- * Electrum 1.x - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-electrum-halfseed.py>
- * Electrum 2.x - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-electrum2-partmpk.py>
- * mSIGNA - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-msigna-partmpk.py>
- * MultiBit Classic - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-multibit-privkey.py>
- * MultiBit HD - <https://github.com/3rditeration/btcrecover/raw/master/extract-scripts/extract-multibit-hd-data.py>
+ * Bitcoin Core - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-bitcoincore-mkey.py>
+ * Bither - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-bither-partkey.py>
+ * Blockchain main password - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-blockchain-main-data.py>
+ * Blockchain second password -  <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-blockchain-second-hash.py>
+ * Electrum 1.x - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-electrum-halfseed.py>
+ * Electrum 2.x - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-electrum2-partmpk.py>
+ * mSIGNA - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-msigna-partmpk.py>
+ * MultiBit Classic - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-multibit-privkey.py>
+ * MultiBit HD - <https://github.com/CryptoXploit/BTCRecover/raw/master/extract-scripts/extract-multibit-hd-data.py>
 
 If you're on Windows, you will also need to install the latest version of Python 3.7 or above. For any other wallets, just follow the [instructions to install Python here](INSTALL.md#python).
 
@@ -159,7 +159,7 @@ For Windows users, it's simply a case of navigating to %localappdata%\Coinomi\Co
 
 For Android users, you will need to have a rooted phone which will allow you to access the .wallet file in the Coinomi. (It should be found in the folder data\data\com.coinomi.wallet\files\wallets) How to get root access on your particular phone is beyond the scope of this document, but be warned that some methods of rooting your phone will involve a factory reset.
 
-If there are mulitiple wallets there and you are not sure which is the correct one, the name of each wallet can be found in clear text at the end of the file. [See the test wallets included with this repository in ./btcrecover/test/test-wallets](https://github.com/3rdIteration/btcrecover/tree/master/btcrecover/test/test-wallets) for an example)
+If there are mulitiple wallets there and you are not sure which is the correct one, the name of each wallet can be found in clear text at the end of the file. [See the test wallets included with this repository in ./btcrecover/test/test-wallets](https://github.com/CryptoXploit/BTCRecover/tree/master/btcrecover/test/test-wallets) for an example)
 
 Once you have the file, you can either use it directly with BTCRecover, or you can create an extract.
 
