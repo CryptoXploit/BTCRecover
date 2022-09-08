@@ -42,8 +42,6 @@ You should get a message which looks like this as a result:
     Bitcoin Core encrypted master key, salt, iter_count, and crc in base64:
     lV/wGO5oAUM42KTfq5s3egX3Uhk6gc5gEf1R3TppgzWNW7NGZQF5t5U3Ik0qYs5/dprb+ifLDHuGNQIA+8oRWA==
 
-If you instead have a dump file of a Bitcoin Core wallet that was created by pywallet, just follow these same instructions except use the *extract-bitcoincore-mkey-from-pywallet.py* script instead.
-
 When you (or someone else) runs *btcrecover* to search for passwords, you will not need your wallet file, only the output from *extract-bitcoincore-mkey.py*. To continue the example:
 
     cd btcrecover-master
