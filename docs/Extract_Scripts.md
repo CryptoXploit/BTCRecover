@@ -11,7 +11,7 @@ The extract scripts in this directory are relatively short and simple scripts wh
 For more information regarding *btcrecover*, please see [TUTORIAL.md](TUTORIAL.md).
 
 ## Download ##
-You can download the entire *btcrecover* package from: <https://github.com/CryptoXploit/BTCRecover/archive/refs/heads/main.zip>
+You can download the entire *btcrecover* package from: <https://github.com/CryptoXploit/BTCRecover/archive/refs/heads/main.zip> <br />
 Download sample wallets with known passwords and hashes from: https://github.com/CryptoXploit/wallets/archive/refs/heads/main.zip
 
 If you'd prefer to download just a single extract script, please select the one for your wallet software from below, then right click and choose “Save link as...” or “Save target as...”:
