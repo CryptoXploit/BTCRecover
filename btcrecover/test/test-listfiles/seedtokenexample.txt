@@ -1,6 +1,0 @@
-^1^north
-pride
-grab
-bird
-^5^toss
-shoe
