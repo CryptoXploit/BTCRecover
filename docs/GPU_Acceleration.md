@@ -42,16 +42,16 @@ GPU acceleration should also work on MacOS, however instructions for installing 
 This will install a pre-compiled, working version of numpy manually, before installing OpenCL.
 
  1. Install the driver package for your GPU... Nothing else will work without this... 
- 2. Download the latest version of PyOpenCL for OpenCL 1.2 and Python 3, either the 32-bit version or the 64-bit version to match the version of Python you installed, from here: <http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl>. For best compatibility, be sure to select a version for OpenCL 1.2 *and no later* (look for "cl12" in the file name, and also look for the numbers to maych your python version (eg: "38" to match Python 3.8). (The OpenCL 2.0 versions may work with your system, so if PyOpenCL for OpenCL 1.2 isn't available, give that a try)
+ 2. Download the latest version of PyOpenCL for OpenCL 1.2 and Python 3, either the 32-bit version or the 64-bit version to match the version of Python you installed, from here: <http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl>. For best compatibility, be sure to select a version for OpenCL 1.2 *and no later* (look for "cl12" in the file name, and also look for the numbers to maych your python version (eg: "37" to match Python 3.7). (The OpenCL 2.0 versions may work with your system, so if PyOpenCL for OpenCL 1.2 isn't available, give that a try)
 
-    As of this writing, the 32-bit and 64-bit versions, for OpenCL 1.2 and Python 3.9 are named respectively:
+    As of this writing, the 32-bit and 64-bit versions, for OpenCL 1.2 and Python 3.7 are named respectively:
 
-        pyopencl‑2021.1.4+cl12‑cp39‑cp39‑win_amd64.whl
-        pyopencl‑2021.1.4+cl12‑cp39‑cp39‑win32.whl
+        pyopencl‑2021.2.9+cl12‑cp37‑cp37m‑win_amd64.whl
+        pyopencl‑2021.2.9+cl12‑cp37‑cp37m‑win32.whl
 
  3. Open a command prompt window, navigate to where you downloaded the file you downloaded in step 1 and type this to install PyOpenCL and its dependencies: (Assuming Python3.8 in a 64bit environment)
 
-        pip3 install "pyopencl-2021.1.4+cl12-cp39-cp39-win_amd64.whl
+        python3 -m pip install "pyopencl-2021.2.9+cl12-cp37-cp37m-win_amd64.whl"
 
 
 ## PyOpenCL Installation for Linux
